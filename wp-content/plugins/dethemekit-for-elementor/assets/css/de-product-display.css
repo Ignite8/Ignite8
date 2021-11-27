@@ -1,0 +1,442 @@
+.elementor-widget-dethemekit-product-display .ht-products.ht-row {
+    /* grid-column-gap: 20px;
+    grid-row-gap: 40px;
+    display: grid; */
+    /* display: flex; */
+    /* margin: 0;
+    padding: 0;
+    list-style: none outside;
+    clear: both;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent; */
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: -1rem;
+    margin-left: -1rem;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+}
+.elementor-widget-dethemekit-product-display .ht-products.ht-row .ht-product {
+    /* width: 100%; */
+    /* padding: 0;
+    margin: 0 !important;
+    float: none;
+    clear: both;
+    display: contents; */
+}
+@media (min-width: 1025px) {
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-1 .ht-products.ht-row .ht-product{
+        /* grid-template-columns: repeat(1,1fr); */
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-2 .ht-products.ht-row .ht-product{
+        /* grid-template-columns: repeat(2,1fr); */
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-3 .ht-products.ht-row .ht-product{
+        /* grid-template-columns: repeat(3,1fr); */
+        flex-basis: 33%;
+        max-width: 33%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-4 .ht-products.ht-row .ht-product{
+        /* grid-template-columns: repeat(4,1fr); */
+        flex-basis: 25%;
+        max-width: 25%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-5 .ht-products.ht-row .ht-product{
+        /* grid-template-columns: repeat(5,1fr); */
+        flex-basis: 20%;
+        max-width: 20%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-6 .ht-products.ht-row .ht-product{
+        /* grid-template-columns: repeat(6,1fr); */
+        flex-basis: 16.6%;
+        max-width: 16.6%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-7 .ht-products.ht-row .ht-product{
+        /* grid-template-columns: repeat(7,1fr); */
+        flex-basis: 14%;
+        max-width: 14%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-8 .ht-products.ht-row .ht-product{
+        /* grid-template-columns: repeat(8,1fr); */
+        flex-basis: 12.5%;
+        max-width: 12.5%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-9 .ht-products.ht-row .ht-product{
+        /* grid-template-columns: repeat(9,1fr); */
+        flex-basis: 11%;
+        max-width: 11%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-10 .ht-products.ht-row .ht-product{
+        /* grid-template-columns: repeat(10,1fr); */
+        flex-basis: 10%;
+        max-width: 10%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-11 .ht-products.ht-row .ht-product{
+        /* grid-template-columns: repeat(11,1fr); */
+        flex-basis: 9%;
+        max-width: 9%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-12 .ht-products.ht-row .ht-product{
+        /* grid-template-columns: repeat(12,1fr); */
+        flex-basis: 8.3%;
+        max-width: 8.3%;
+    }
+}
+@media (max-width: 1024px) {
+    .elementor-element.elementor-products-grid ul.products {
+      grid-template-columns: repeat(3, 1fr); } }
+  
+@media (max-width: 767px) {
+.elementor-element.elementor-products-grid ul.products {
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media (max-width: 1024px) {
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-tablet-1 .ht-products.ht-row .ht-product{
+        /* grid-template-columns: repeat(1,1fr); */
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-tablet-2 .ht-products.ht-row .ht-product{
+        /* grid-template-columns: repeat(2,1fr); */
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-tablet-3 .ht-products.ht-row .ht-product{
+        /* grid-template-columns: repeat(3,1fr); */
+        flex-basis: 33%;
+        max-width: 33%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-tablet-4 .ht-products.ht-row .ht-product{
+        /* grid-template-columns: repeat(4,1fr); */
+        flex-basis: 25%;
+        max-width: 25%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-tablet-5 .ht-products.ht-row .ht-product{
+        /* grid-template-columns: repeat(5,1fr); */
+        flex-basis: 20%;
+        max-width: 20%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-tablet-6 .ht-products.ht-row .ht-product{
+        /* grid-template-columns: repeat(6,1fr); */
+        flex-basis: 16.6%;
+        max-width: 16.6%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-tablet-7 .ht-products.ht-row .ht-product{
+        /* grid-template-columns: repeat(7,1fr); */
+        flex-basis: 14%;
+        max-width: 14%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-tablet-8 .ht-products.ht-row .ht-product{
+        /* grid-template-columns: repeat(8,1fr); */
+        flex-basis: 12.5%;
+        max-width: 12.5%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-tablet-9 .ht-products.ht-row .ht-product{
+        /* grid-template-columns: repeat(9,1fr); */
+        flex-basis: 11%;
+        max-width: 11%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-tablet-10 .ht-products.ht-row .ht-product{
+        /* grid-template-columns: repeat(10,1fr); */
+        flex-basis: 10%;
+        max-width: 10%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-tablet-11 .ht-products.ht-row .ht-product{
+        /* grid-template-columns: repeat(11,1fr); */
+        flex-basis: 9%;
+        max-width: 9%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-tablet-12 .ht-products.ht-row .ht-product{
+        /* grid-template-columns: repeat(12,1fr); */
+        flex-basis: 8.3%;
+        max-width: 8.3%;
+    }
+}
+@media (max-width: 767px) {
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-mobile-1 .ht-products.ht-row .ht-product{
+        /* grid-template-columns: repeat(1,1fr); */
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-mobile-2 .ht-products.ht-row .ht-product{
+        /* grid-template-columns: repeat(2,1fr); */
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-mobile-3 .ht-products.ht-row .ht-product{
+        /* grid-template-columns: repeat(3,1fr); */
+        flex-basis: 33%;
+        max-width: 33%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-mobile-4 .ht-products.ht-row .ht-product{
+        /* grid-template-columns: repeat(4,1fr); */
+        flex-basis: 25%;
+        max-width: 25%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-mobile-5 .ht-products.ht-row .ht-product{
+        /* grid-template-columns: repeat(5,1fr); */
+        flex-basis: 20%;
+        max-width: 20%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-mobile-6 .ht-products.ht-row .ht-product{
+        /* grid-template-columns: repeat(6,1fr); */
+        flex-basis: 16.6%;
+        max-width: 16.6%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-mobile-7 .ht-products.ht-row .ht-product{
+        /* grid-template-columns: repeat(7,1fr); */
+        flex-basis: 14%;
+        max-width: 14%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-mobile-8 .ht-products.ht-row .ht-product{
+        /* grid-template-columns: repeat(8,1fr); */
+        flex-basis: 12.5%;
+        max-width: 12.5%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-mobile-9 .ht-products.ht-row .ht-product{
+        /* grid-template-columns: repeat(9,1fr); */
+        flex-basis: 11%;
+        max-width: 11%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-mobile-10 .ht-products.ht-row .ht-product{
+        /* grid-template-columns: repeat(10,1fr); */
+        flex-basis: 10%;
+        max-width: 10%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-mobile-11 .ht-products.ht-row .ht-product{
+        /* grid-template-columns: repeat(11,1fr); */
+        flex-basis: 9%;
+        max-width: 9%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-mobile-12 .ht-products.ht-row .ht-product{
+        /* grid-template-columns: repeat(12,1fr); */
+        flex-basis: 8.3%;
+        max-width: 8.3%;
+    }
+}
+
+/* LAYOUT TAB  */
+.elementor-widget-dethemekit-product-display .ht-products .ht-tab-pane .ht-row{
+    /* grid-column-gap: 20px;
+    grid-row-gap: 40px;
+    display: grid; */
+    /* display: flex; */
+    /* margin: 0;
+    padding: 0;
+    list-style: none outside;
+    clear: both;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent; */
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: -1rem;
+    margin-left: -1rem;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+}
+.elementor-widget-dethemekit-product-display .ht-products .ht-tab-pane .ht-product {
+    /* width: 100%; */
+    /* padding: 0;
+    margin: 0 !important;
+    float: none;
+    clear: both;
+    display: contents; */
+}
+@media (min-width: 1025px) {
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-1 .ht-products .ht-tab-pane .ht-row .ht-product{
+        /* grid-template-columns: repeat(1,1fr); */
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-2 .ht-products .ht-tab-pane .ht-row .ht-product{
+        /* grid-template-columns: repeat(2,1fr); */
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-3 .ht-products .ht-tab-pane .ht-row .ht-product{
+        /* grid-template-columns: repeat(3,1fr); */
+        flex-basis: 33%;
+        max-width: 33%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-4 .ht-products .ht-tab-pane .ht-row .ht-product{
+        /* grid-template-columns: repeat(4,1fr); */
+        flex-basis: 25%;
+        max-width: 25%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-5 .ht-products .ht-tab-pane .ht-row .ht-product{
+        /* grid-template-columns: repeat(5,1fr); */
+        flex-basis: 20%;
+        max-width: 20%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-6 .ht-products .ht-tab-pane .ht-row .ht-product{
+        /* grid-template-columns: repeat(6,1fr); */
+        flex-basis: 16.6%;
+        max-width: 16.6%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-7 .ht-products .ht-tab-pane .ht-row .ht-product{
+        /* grid-template-columns: repeat(7,1fr); */
+        flex-basis: 14%;
+        max-width: 14%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-8 .ht-products .ht-tab-pane .ht-row .ht-product{
+        /* grid-template-columns: repeat(8,1fr); */
+        flex-basis: 12.5%;
+        max-width: 12.5%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-9 .ht-products .ht-tab-pane .ht-row .ht-product{
+        /* grid-template-columns: repeat(9,1fr); */
+        flex-basis: 11%;
+        max-width: 11%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-10 .ht-products .ht-tab-pane .ht-row .ht-product{
+        /* grid-template-columns: repeat(10,1fr); */
+        flex-basis: 10%;
+        max-width: 10%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-11 .ht-products .ht-tab-pane .ht-row .ht-product{
+        /* grid-template-columns: repeat(11,1fr); */
+        flex-basis: 9%;
+        max-width: 9%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-12 .ht-products .ht-tab-pane .ht-row .ht-product{
+        /* grid-template-columns: repeat(12,1fr); */
+        flex-basis: 8.3%;
+        max-width: 8.3%;
+    }
+}
+@media (max-width: 1024px) {
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-tablet-1 .ht-products .ht-tab-pane .ht-row .ht-product{
+        /* grid-template-columns: repeat(1,1fr); */
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-tablet-2 .ht-products .ht-tab-pane .ht-row .ht-product{
+        /* grid-template-columns: repeat(2,1fr); */
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-tablet-3 .ht-products .ht-tab-pane .ht-row .ht-product{
+        /* grid-template-columns: repeat(3,1fr); */
+        flex-basis: 33%;
+        max-width: 33%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-tablet-4 .ht-products .ht-tab-pane .ht-row .ht-product{
+        /* grid-template-columns: repeat(4,1fr); */
+        flex-basis: 25%;
+        max-width: 25%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-tablet-5 .ht-products .ht-tab-pane .ht-row .ht-product{
+        /* grid-template-columns: repeat(5,1fr); */
+        flex-basis: 20%;
+        max-width: 20%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-tablet-6 .ht-products .ht-tab-pane .ht-row .ht-product{
+        /* grid-template-columns: repeat(6,1fr); */
+        flex-basis: 16.6%;
+        max-width: 16.6%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-tablet-7 .ht-products .ht-tab-pane .ht-row .ht-product{
+        /* grid-template-columns: repeat(7,1fr); */
+        flex-basis: 14%;
+        max-width: 14%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-tablet-8 .ht-products .ht-tab-pane .ht-row .ht-product{
+        /* grid-template-columns: repeat(8,1fr); */
+        flex-basis: 12.5%;
+        max-width: 12.5%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-tablet-9 .ht-products .ht-tab-pane .ht-row .ht-product{
+        /* grid-template-columns: repeat(9,1fr); */
+        flex-basis: 11%;
+        max-width: 11%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-tablet-10 .ht-products .ht-tab-pane .ht-row .ht-product{
+        /* grid-template-columns: repeat(10,1fr); */
+        flex-basis: 10%;
+        max-width: 10%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-tablet-11 .ht-products .ht-tab-pane .ht-row .ht-product{
+        /* grid-template-columns: repeat(11,1fr); */
+        flex-basis: 9%;
+        max-width: 9%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-tablet-12 .ht-products .ht-tab-pane .ht-row .ht-product{
+        /* grid-template-columns: repeat(12,1fr); */
+        flex-basis: 8.3%;
+        max-width: 8.3%;
+    }
+}
+@media (max-width: 767px) {
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-mobile-1 .ht-products .ht-tab-pane .ht-row .ht-product{
+        /* grid-template-columns: repeat(1,1fr); */
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-mobile-2 .ht-products .ht-tab-pane .ht-row .ht-product{
+        /* grid-template-columns: repeat(2,1fr); */
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-mobile-3 .ht-products .ht-tab-pane .ht-row .ht-product{
+        /* grid-template-columns: repeat(3,1fr); */
+        flex-basis: 33%;
+        max-width: 33%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-mobile-4 .ht-products .ht-tab-pane .ht-row .ht-product{
+        /* grid-template-columns: repeat(4,1fr); */
+        flex-basis: 25%;
+        max-width: 25%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-mobile-5 .ht-products .ht-tab-pane .ht-row .ht-product{
+        /* grid-template-columns: repeat(5,1fr); */
+        flex-basis: 20%;
+        max-width: 20%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-mobile-6 .ht-products .ht-tab-pane .ht-row .ht-product{
+        /* grid-template-columns: repeat(6,1fr); */
+        flex-basis: 16.6%;
+        max-width: 16.6%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-mobile-7 .ht-products .ht-tab-pane .ht-row .ht-product{
+        /* grid-template-columns: repeat(7,1fr); */
+        flex-basis: 14%;
+        max-width: 14%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-mobile-8 .ht-products .ht-tab-pane .ht-row .ht-product{
+        /* grid-template-columns: repeat(8,1fr); */
+        flex-basis: 12.5%;
+        max-width: 12.5%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-mobile-9 .ht-products .ht-tab-pane .ht-row .ht-product{
+        /* grid-template-columns: repeat(9,1fr); */
+        flex-basis: 11%;
+        max-width: 11%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-mobile-10 .ht-products .ht-tab-pane .ht-row .ht-product{
+        /* grid-template-columns: repeat(10,1fr); */
+        flex-basis: 10%;
+        max-width: 10%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-mobile-11 .ht-products .ht-tab-pane .ht-row .ht-product{
+        /* grid-template-columns: repeat(11,1fr); */
+        flex-basis: 9%;
+        max-width: 9%;
+    }
+    .elementor-widget-dethemekit-product-display.elementor-products-columns-mobile-12 .ht-products .ht-tab-pane .ht-row .ht-product{
+        /* grid-template-columns: repeat(12,1fr); */
+        flex-basis: 8.3%;
+        max-width: 8.3%;
+    }
+}
