@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "ignite8.io",
+  "Id": "fdd929ba-9dc9-4418-9de8-e978d0317ce2"
+}
